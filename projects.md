@@ -37,7 +37,7 @@ We'll be using Google cloud (GCP) for our work this semester.  We'll be
 sharing $50 of credit per student.  Some notes about how to manage this credit:
 
 * some people have multiple GCP accounts, for example, one with @gmail.com and one with @wisc.edu.  You must redeem the credits with your @wisc.edu, but it's fine to then use them under any account
-* Google accounts have multiple "billing accounts" -- these might typically correspond to credit cards.  In your case, you'll have a billing account corresponding to $100 credit we'll provide
+* Google accounts have multiple "billing accounts" -- these might typically correspond to credit cards.  In your case, you'll have a billing account corresponding to $50 credit we'll provide
 * Virtual machines and other resources are created under "projects", which are assigned to a billing account (and can be reassigned).  When your first billing count is nearly exhausted, you'll need to move your VM over (or create a new one)
 
 Here is a plan/budget for what VM you should have at each point during the semester:
