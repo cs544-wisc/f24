@@ -4,6 +4,12 @@
 
 Students may work alone or optionally work in groups of two.
 
+**Code copying between students is not allowed in this course, except
+between project partners.  Copying includes emailing, taking photos,
+looking while typing line by line, etc.  Copying code then changing it
+is still copying and thus not allowed.  Lock your compute when it's
+not attended.**
+
 **Partners**
 * a comment at top should specify the names of both partners by their @wisc.edu email
 * there should only be one submission in one GitHub classroom repo for the team
@@ -28,7 +34,7 @@ Students may work alone or optionally work in groups of two.
 ## Compute Setup
 
 We'll be using Google cloud (GCP) for our work this semester.  We'll be
-sharing $100 of credit per student.  Some notes about how to manage this credit:
+sharing $50 of credit per student.  Some notes about how to manage this credit:
 
 * some people have multiple GCP accounts, for example, one with @gmail.com and one with @wisc.edu.  You must redeem the credits with your @wisc.edu, but it's fine to then use them under any account
 * Google accounts have multiple "billing accounts" -- these might typically correspond to credit cards.  In your case, you'll have a billing account corresponding to $100 credit we'll provide
@@ -36,19 +42,19 @@ sharing $100 of credit per student.  Some notes about how to manage this credit:
 
 Here is a plan/budget for what VM you should have at each point during the semester:
 
-https://docs.google.com/spreadsheets/d/1HJyhyju6JB_hzynsjh1SOnczpCDCrO81hbgdn3lekYs/edit#gid=0
+https://docs.google.com/spreadsheets/d/14_ifSyNhkWgZ0Wq4d79-CqAfj-BplucDMvkC1LAibfo/edit?usp=sharing
 
 Please monitor your credits carefully.  If you're burning through credits faster than the schedule, it is your responsibility to conserve credits (for example, by shutting down your VM overnight).
 
-Your VMs should always run the Ubuntu 22.04 LTS (be sure it is the "x86/64" option).  Here are versions for the software we'll use this semester:
+Your VMs should always run the TODO OS (be sure it is the "x86/64" option).  Here are versions for the software we'll use this semester:
 
-* Ubuntu 22.04
-* Docker 24.0.5
+* Ubuntu TBD
+* Docker TBD
 * *more details soon*
 
-Be sure to backup your work regularly to a private GitHub repo, or with an `scp` to your personal computer.
+Be sure to backup your work regularly to a private GitLab repo, or with an `scp` to your personal computer.
 
-For commands like `scp` and others you will use this semester, the the
+For commands like `scp` and others you will use this semester, the
 cloud console's in-browser SSH client won't work.  You'll need to
 setup SSH keys with `ssh-keygen` and configure it on
 https://console.cloud.google.com/compute/metadata to get from your
@@ -56,8 +62,8 @@ personal computer.
 
 ## Submission
 
-You'll be doing all your work on GitHub classroom.  Watch for Canvas
-announcements providing project invite links.
+You'll be doing all your work on GitLab (in private repos we'll help
+you setup).  Watch for Canvas announcements for further details.
 
 * if you worked with a partner, make one submission.  Requirement: commit history must show at least one commit from each partner.
 * projects have four parts; for notebooks, use big headers to divide your work into the four parts ("# Part 1: ...")
