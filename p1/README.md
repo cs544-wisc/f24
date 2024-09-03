@@ -57,7 +57,7 @@ lscpu > cpu.txt
 
 ## Part 2: Docker Install
 
-Carefully follow the directions here to install Docker 24.0.5 and Compose 2.20.2 on your virtual machine: https://docs.docker.com/engine/install/ubuntu/
+Carefully follow the directions here to install Docker 27.1.0 and Compose 2.29.2 on your virtual machine: https://docs.docker.com/engine/install/ubuntu/
 
 Notes:
 * there are several different approaches described under "Installation methods".  Use the directions under "Install using the apt repository".  Make sure you don't keep going after you reach "Install from a package"
